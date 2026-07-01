@@ -7,7 +7,20 @@ title: "frases do dia",
       color: Colors.white,
       child: Column(
         children: [
-          Text("paula cecilia longhi")
+          Text(
+            "Lorem ipsum ",
+            style: TextStyle(
+                fontSize: 50,
+                fontStyle: FontStyle.normal,
+                fontWeight: FontWeight.normal,
+                letterSpacing: 0,
+                wordSpacing: 0,
+                decoration: TextDecoration.underline,
+                decorationColor: Colors.greenAccent,
+                decorationStyle: TextDecorationStyle.solid,
+                color: Colors.black
+            ),
+          )
         ],
       ),
     ),
